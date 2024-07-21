@@ -1,0 +1,2 @@
+theme: 
+	mkdir -p ~/.config && cp starship.toml ~/.config/starship.toml
