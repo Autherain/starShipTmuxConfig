@@ -28,7 +28,7 @@ $package\
 $buf\
 $memory_usage\
 $docker_context\
-[ ](#1C3A5E)$time[ ](#1C3A5E)$cmd_duration
+(#1C3A5E)$cmd_duration [ ](#1C3A5E)$time[ ](#1C3A5E)
 [>](bold green) """
 
 continuation_prompt = '▶▶ '
@@ -37,6 +37,7 @@ continuation_prompt = '▶▶ '
 style_user='bold white'
 
 [fill]
+style = 'white'
 
 [character]
 success_symbol = '' # The 'success_symbol' segment is being set to '➜' with the color 'bold green'
@@ -50,10 +51,10 @@ format='[$symbol]($style)'
 disabled = false
 time_format = "%r" # Hour:Minute Format
 style = "bg:#1d2230"
-format = '[[ 󱑍 $time ](bg:#1C3A5E fg:#8DFBD2)]($style)'
+format = '[[ 󱑍 $time ](bg:#1C3A5E fg:#ffffff)]($style)'
 
 [cmd_duration]
-format = '[$duration](bold yellow)'
+format = '[ $duration](bold yellow)'
 
 # ---
 
