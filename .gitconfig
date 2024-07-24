@@ -1,0 +1,9 @@
+[user]
+	name = xxxxx
+	email = xxxxxx
+[core]
+        excludesFile = ~/.gitignore_global
+[pull]
+  rebase = True 
+[push]
+  autoSetupRemote
