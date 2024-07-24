@@ -9,3 +9,6 @@ tmux:
 
 lazyvim: 
 	cp lazy-lock.json ~/.config/nvim/
+
+git: 
+	cp .gitconfig .gitignore_global ~
