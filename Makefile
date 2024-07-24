@@ -5,7 +5,7 @@ tpm :
 	git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 tmux: 
-	cp .tmux.conf ~/.tmux.conf && echo "Don't forgt to do 'Ctrl+s+r' and 'Ctrl+s+i' to install plugins"
+	cp .tmux.conf ~/.tmux.conf && echo "Don't forgt to do 'Ctrl+s+r' and 'Ctrl+s+i' to install plugins + For copy-paste, go see the doc to install things https://github.com/tmux-plugins/tmux-yank?tab=readme-ov-file"
 
 lazyvim: 
 	cp lazy-lock.json ~/.config/nvim/
