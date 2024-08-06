@@ -12,3 +12,6 @@ lazyvim:
 
 git: 
 	cp .gitconfig .gitignore_global ~
+
+fzf: 
+	echo "Go check out the git repo https://github.com/junegunn/fzf"
