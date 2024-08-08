@@ -2,7 +2,8 @@
 	name = xxxxx
 	email = xxxxxx
 [core]
-        excludesFile = ~/.gitignore_global
+	excludesFile = ~/.gitignore_global
+	editor = nvim
 [pull]
   rebase = True 
 [push]
